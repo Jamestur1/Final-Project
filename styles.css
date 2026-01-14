@@ -1177,7 +1177,16 @@ footer {
   #testimonials .section__title {
     font-size: 46px;
   }
+   
+  #values .btn {
+    margin-top: 48px;
+  }
+  .values__list {
+    max-width: 20rem;
+    flex-direction: column;
+  }
 
+  
   .plans {
     flex-direction: column;
     align-items: center;
@@ -1191,6 +1200,14 @@ footer {
   }
   h1 {
     font-size: 42px;
+  }
+.value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .header__description {
+    width: 75%;
   }
 
   .feature {
@@ -1218,10 +1235,17 @@ footer {
 
   #steps .row,
   #testimonials .row,
-  #start {
+  #start{
     flex-direction: column;
     align-items: center;
   }
+
+  .step {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
   #features .section__title,
   #pricing .section__title,
   #quality .section__title,
@@ -1278,14 +1302,13 @@ footer {
     margin-bottom: 12px;
    }
 
-   
-
    .header__email--btn {
     width: 100%;
     height: 56px;
     margin: 0;
    }
-}
+
+  }
 
 @media (max-width: 640px) {
 
@@ -1300,7 +1323,11 @@ footer {
     font-size: 28px;
   }
   
-  
+      .feature__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
   .footer__columns {
         justify-content: center;
     }
@@ -1331,4 +1358,9 @@ footer {
    h1 {
     font-size: 32px;
    }
-}
+
+   .start__container {
+    height: 450px;
+   }
+
+  }
